@@ -2,7 +2,7 @@
 
 katz_deli = []
 
-def line
+def line(katz_deli)
   sentence = "The line is currently empty."
   if katz_deli.length > 0
     sentence = "The line is currently:"
