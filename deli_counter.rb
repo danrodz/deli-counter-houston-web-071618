@@ -11,4 +11,7 @@ def line(array)
   puts sentence
 end
 
-def take_a_number
+def take_a_number(array, name)
+  array.push(name)
+  puts array.count
+end
