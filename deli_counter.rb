@@ -3,7 +3,7 @@
 katz_deli = []
 
 def line(array)
-  return puts "The line is currently empty." if array.empty
+  return puts "The line is currently empty." if array.empty?
   sentence = "The line is currently:"
   array.each.with_index(1) do |customer, index|
     sentence += " #{index}. #{customer}"
