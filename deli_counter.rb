@@ -10,3 +10,5 @@ def line(array)
   end
   puts sentence
 end
+
+def take_a_number
