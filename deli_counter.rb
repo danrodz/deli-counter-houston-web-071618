@@ -10,5 +10,5 @@ def line(array)
       sentence += " #{index}. #{customer}"
     end
   end
-  print sentence
+  puts sentence
 end
